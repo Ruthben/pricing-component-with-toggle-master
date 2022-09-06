@@ -1,0 +1,330 @@
+$Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+
+$Linear-Gradient: hsl(236, 72%, 79%);
+$Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+$Light-Grayish-Blue: hsl(234, 14%, 74%);
+$Grayish-Blue:hsl(233, 13%, 49%);
+$Dark-Grayish-Blue: hsl(232, 13%, 33%);
+$violet-blue:hsl(237, 63%, 64%);
+$color: hsl(228, 45%, 44%);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: $Very-Light-Grayish-Blue;
+    background-image: url(./images/bg-top.jpg);
+    background-image: url(./images/bg-bottom.jpg);
+    background-repeat: no-repeat;
+}
+.main-container{
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+   
+
+
+.heading{
+   h1{
+    text-align: center;
+    color: $Dark-Grayish-Blue;
+    font-size: 20px;
+    font-family: Montserrat;
+   
+   }
+ .abm{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    color: $Light-Grayish-Blue;
+    font-size: 11px;
+    margin-top: 1rem;
+   
+  
+
+    h5{
+        padding: 1rem ;
+    }
+    .header_button{
+        justify-content: center;
+        padding-top: 0.5rem;
+        margin-top: 0.5rem;
+        display:inline-flex;
+      
+    
+    
+     
+       
+
+       }
+
+
+     
+        
+        .btn-1{
+            
+            width: 0.9rem;
+            height: 1rem;
+            border-radius: 5rem;
+            border-style: none;
+            background-color: white;
+            margin-left: -5px; 
+            position: absolute;
+            justify-content: left;
+            margin-top: 0.5px;
+           
+        }
+
+     
+
+           
+           
+           
+        }
+        
+        .btn-2{
+           
+            width: 2rem;
+            height: 1.1rem;
+            border-radius: 2rem;
+            border-style: none;
+            background-color: $violet-blue;
+            
+           
+           
+        }
+
+       
+    }
+   
+ 
+
+.container{
+    justify-content: center;
+    display:flex;
+    margin-bottom: 2rem;
+
+    
+    
+    
+    h4{
+        text-align: center;
+        font-size: 11px;
+    }
+    h4{
+        text-align: center;
+        padding: 0.8rem;
+    }
+    h1{
+        padding-bottom: 1rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+   
+    hr{
+        background-color: $Light-Grayish-Blue;
+     
+        margin-right: 1rem;
+        width: 90%;
+       height: 1px;
+       border: 0 none;
+       
+        
+       
+    
+    }
+    .sec-1{
+        background-color: white;
+        padding-left: 0.9rem;
+        border-top-left-radius:0.5rem ;
+        border-bottom-left-radius:0.5rem ;
+        font-family: Montserrat;
+
+       h4{
+        color: $Dark-Grayish-Blue;
+        font-family: Montserrat;
+       }
+       h1{
+        color: hsl(235, 21%, 12%);
+        font-weight: 500;
+        font-family: Montserrat;
+        
+       }
+       .primary-btn button{
+        margin-top: 1.5rem;
+        margin-right:1rem ;
+        width: 13rem;
+        height: 1.5rem;
+        background-color: $violet-blue;
+        border-style: none;
+        margin-bottom: 1.5rem;
+        color: white;
+        font-size: 11px;
+        border-radius: 0.2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 500;
+      
+
+
+       
+
+       }
+       .primary-btn button:hover{
+        background-color: white;
+        color: $Dark-Grayish-Blue;
+        cursor:pointer;
+        border-style:outset; 
+        border-width: 0.1rem;
+        border-color: $Very-Light-Grayish-Blue;
+        
+        text-transform: capitalize;
+        color: $color;
+       }
+   
+       
+    }
+    .sec-2{
+        color: white;
+        font-weight: 500;
+        padding-left: 0.5rem;
+        background-color: $violet-blue;
+        background: $Linear-Gradient hsl(236, 72%, 79%) to hsl(237, 63%, 64%) ;
+        margin-top: -15px;
+        margin-bottom: -15px;
+        border-radius: 5px;
+        font-family: Montserrat;
+       
+
+        .secondary-btn button{
+            margin-top: 1.5rem;
+            margin-right:1rem ;
+            width: 12rem;
+            height: 1.5rem;
+            background-color: white;
+            border-style: none;
+           
+            color: $color;
+            font-size: 11px;
+            border-radius: 0.2rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 500;
+            
+    
+           }
+           .secondary-btn button:hover{
+            background-color: $violet-blue ;
+            color: white;
+            cursor: pointer;
+            border-style:outset; 
+            border-width: 0.1rem;
+            border-color: white;
+           
+          
+           }
+
+    }
+    .sec-3{
+        color: hsl(235, 21%, 12%);
+        font-weight: 500;
+        padding-left: 0.9rem;
+        background-color: white;
+        border-top-right-radius:0.5rem ;
+        border-bottom-right-radius:0.5rem ;
+        font-family: Montserrat;
+      
+
+        .tetiary-btn button{
+            margin-top: 1.5rem;
+            margin-right:1rem ;
+            width: 12rem;
+            height: 1.5rem;
+            background-color: $violet-blue;
+            border-style: none;
+            margin-bottom: 1.5rem;
+            color: white;
+            font-size: 11px;
+            border-radius: 0.2rem;
+            
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 500;
+        
+    
+           }
+           .tetiary-btn button:hover{
+            background-color: white;
+            color: $Dark-Grayish-Blue;
+            cursor: pointer;
+            border-style:outset; 
+            border-width: 0.1rem;
+            border-color: $Very-Light-Grayish-Blue;
+            
+            text-transform: capitalize;
+            color: $color;
+           }
+    }
+}
+
+
+
+@media  (max-width:400px) {
+    body{
+        background-color: $Very-Light-Grayish-Blue;
+    }
+    .main-container{
+        max-width: 375px;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        
+    }
+    .container{ 
+        margin-top: 1rem;
+        display: block;
+        max-width: 375px;
+        width: 70%;
+        margin: 0 auto;
+
+      
+        .sec-1{
+        margin-top: 1rem;
+         margin-bottom: 1.5rem;
+         border-radius: 0.3rem;
+
+         .primary-btn button{
+            justify-content: center;
+            width: 12rem;
+
+            
+         }
+        }
+        .sec-2{
+            margin-bottom: 1.5rem;
+            border-radius: 0.3rem;
+
+            .secondary-btn button{
+                margin-bottom: 1rem;
+                justify-content: center;
+            }
+        }
+        .sec-3{
+            margin-bottom: 1.5rem;
+            border-radius: 0.3rem;
+        }
+    }
+  
+}
